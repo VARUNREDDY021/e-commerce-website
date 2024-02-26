@@ -1,0 +1,43 @@
+.NewsLetter{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+    width:70%;
+    height:40vh;
+    margin:auto;
+    align-items: center;
+    justify-content:center ;
+    margin-bottom: 150px;
+    padding: 0 140px;
+    background:linear-gradient(180deg ,#fde1ff 0%,#e1ffaa22 60%);
+}
+.NewsLetter h1{
+   
+    font-size: 50px;
+}
+.NewsLetter p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.NewsLetterMail{
+    
+    display: flex;
+
+}
+.NewsLetterMail input{
+    width: 490px;
+    border: none;
+    outline:none;
+    border-radius: 40px;
+    padding: 20px;
+    font: 30px;
+}
+.NewsLetterMail button{
+    border-radius: 40px;
+    padding: 20px;
+    margin-left: -100px;
+    background-color: black;
+    color: #fde1ff;
+    font-weight: 600;
+    border:none;
+}

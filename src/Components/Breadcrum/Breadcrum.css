@@ -1,0 +1,7 @@
+.Breadcrum{
+    display: flex;
+    align-items: center;
+    margin:20px 100px;
+    font-weight: 500;
+    font-size:25px;
+}

@@ -1,0 +1,75 @@
+.ProductDisplay-main{
+    display: flex;
+    padding: 40px 30px;
+    height:80%;
+    gap:180px;
+
+}
+.Product-left{
+    padding: 50px;
+}
+.Product-left img{
+    height: 800px;
+}
+.Product-right{
+    padding: 80px 50px;
+    
+}
+.ProductDisplay-main-name{
+    font-weight: 700;
+    font-size: 60px;
+}
+.ProductDisplay-rating{
+    display: flex;
+    
+}
+.ProductDisplay-rating img{
+    width:30px;
+    margin-top: 30px;
+}
+.ProductDisplay-prices{
+    display:flex;
+    gap:60px;
+    margin:40px;
+    
+
+}
+.ProductDisplay-newprice{
+    font-size: 40px;
+    font-weight: 500;
+}
+.ProductDisplay-oldprice{
+     text-decoration: line-through;
+     font-size: 36px;
+}
+.ProductDisplay-description{
+    font-size: 20px;
+}
+
+.allsizes{
+    display: flex;
+    gap:30px;
+    margin-top: 20px;
+
+}
+.allsizes li{
+    text-decoration: none;
+    list-style: none;
+   padding: 10px;
+    border:2px solid rgb(180, 225, 243);
+    background-color: aqua;
+    
+}
+
+.ProductDisplay-button button{
+    padding: 19px;
+    background-color: brown;
+    color: aqua;
+    margin-top: 20px;
+    font-size: 15px;
+
+}
+.ProductDisplay-Size{
+    margin: 30px 0px;
+    
+}
